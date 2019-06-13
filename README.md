@@ -16,11 +16,17 @@ Model Used: VGG-Net 16
 ![alt text](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png)
 Optimizer: L-BFGS
 Content Loss:
-![alt text](https://latex.codecogs.com/svg.latex?L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2%22%20title=%22L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2%22
-)
-Style Loss: 
-Combined Loss:
+![alt text](https://latex.codecogs.com/svg.latex?L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2)
+Style Loss:
+Gram's Matrix: 
+![alt text](https://latex.codecogs.com/svg.latex?G_{ij}^l = \sum_{k} F_{ik}^l F_{jk}^l )
+Error Term:
+![alt text](https://latex.codecogs.com/svg.latex?E_{l} = \frac{1}{4 N_{l}^2 M_{l}^2} \sum_{i,j} (G_{ij}^l - A_{ij}^l)^2 )
+Loss Term: 
+![alt text](https://latex.codecogs.com/svg.latex?L_{style} = \sum_{l =0}^l E_{l} )
 
+Combined Loss:
+![alt text](https://latex.codecogs.com/svg.latex?L_{total} = \alpha L_{content} + \beta L_{style})
 ## How to Use?? <a name="paragraph3"></a>
 Provide your image path in block 3 variable "content_image_path". 
 <br />
