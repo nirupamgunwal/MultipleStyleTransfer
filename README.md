@@ -14,9 +14,16 @@ The user receives his image painted in the style of his particular artist. So, t
 ## Stats for the nerds. <a name="paragraph2"></a>
 Model Used: VGG-Net 16
 ![alt text](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png)
+Optimizer: L-BFGS
+Content Loss:
+![alt text](https://latex.codecogs.com/svg.latex?L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2%22%20title=%22L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2%22
+)
+Style Loss: 
+Combined Loss:
 
 ## How to Use?? <a name="paragraph3"></a>
-Provide your image path in block 3 variable "content_image_path".
+Provide your image path in block 3 variable "content_image_path". 
+<br />
 Provide your artists style image in block 4 variable "style_image_path".
 
 Run every block and your output images will be saved in the path provided by you in result.save().
