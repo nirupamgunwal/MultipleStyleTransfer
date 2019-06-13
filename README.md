@@ -16,7 +16,7 @@ Model Used: VGG-Net 16 <br />
 <!-- ![alt text](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png) -->
 DataSet: Image Net <br />
 <!-- ![Image Net Dataset](https://www.researchgate.net/profile/Khalid_Elasnaoui/publication/325155660/figure/fig5/AS:670718329102351@1536923119570/Example-of-images-of-dataset-ImageNet.png) -->
-Optimizer: L-BFGS <br />
+Optimizer: L-BFGS <br /> <br />
 Content Loss: <br />
 ![alt text](https://latex.codecogs.com/svg.latex?L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2)
 <br />
