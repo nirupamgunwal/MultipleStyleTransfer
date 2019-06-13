@@ -1,6 +1,6 @@
 # Table of contents
 1. [Introduction](#introduction)
-2. [Stats for Nerds](#paragraph2)
+2. [Math behind the magic for Nerds](#paragraph2)
 3. [How to Use??](#paragraph3)
 3. [Documentation and Working](#paragraph4)
 4. [References](#paragraph5)
@@ -11,7 +11,7 @@ The objective of this module is to provide a method for transferring style of an
 What the user receives as output? <br />
 The user receives his image painted in the style of his particular artist. So, the output image is user's image as it was painted by the artist.
 
-## Stats for the nerds. <a name="paragraph2"></a>
+## Math behind the magic for Nerds <a name="paragraph2"></a>
 Model Used: VGG-Net 16 <br />
 ![alt text](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png)
 DataSet: Image Net <br />
@@ -21,17 +21,18 @@ Content Loss: <br />
 ![alt text](https://latex.codecogs.com/svg.latex?L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2)
 <br />
 Style Loss:<br />
-Gram's Matrix: 
+Gram's Matrix: <br />
 ![alt text](https://latex.codecogs.com/svg.latex?G_{ij}^l%20=%20\sum_{k}%20F_{ik}^l%20F_{jk}^l)
 <br />
-Error Term:
+Error Term:<br />
 ![alt text](https://latex.codecogs.com/svg.latex?E_{l}%20=%20\frac{1}{4%20N_{l}^2%20M_{l}^2}%20\sum_{i,j}%20(G_{ij}^l%20-%20A_{ij}^l)^2)
 <br />
-Loss Term: 
+Loss Term: <br />
 ![alt text](https://latex.codecogs.com/svg.latex?L_{style}%20=%20\sum_{l%20=0}^l%20E_{l})
 <br />
 Combined Loss:<br />
 ![alt text](https://latex.codecogs.com/svg.latex?L_{total}%20=%20\alpha%20L_{content}%20+%20\beta%20L_{style})
+<br />
 ## How to Use?? <a name="paragraph3"></a>
 Provide your image path in block 3 variable "content_image_path". 
 <br />
