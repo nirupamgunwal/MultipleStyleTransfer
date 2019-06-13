@@ -19,14 +19,17 @@ DataSet: Image Net <br />
 Optimizer: L-BFGS <br />
 Content Loss: <br />
 ![alt text](https://latex.codecogs.com/svg.latex?L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2)
-Style Loss:
+<br />
+Style Loss:<br />
 Gram's Matrix: 
 ![alt text](https://latex.codecogs.com/svg.latex?G_{ij}^l%20=%20\sum_{k}%20F_{ik}^l%20F_{jk}^l)
+<br />
 Error Term:
 ![alt text](https://latex.codecogs.com/svg.latex?E_{l}%20=%20\frac{1}{4%20N_{l}^2%20M_{l}^2}%20\sum_{i,j}%20(G_{ij}^l%20-%20A_{ij}^l)^2)
+<br />
 Loss Term: 
 ![alt text](https://latex.codecogs.com/svg.latex?L_{style}%20=%20\sum_{l%20=0}^l%20E_{l})
-
+<br />
 Combined Loss:<br />
 ![alt text](https://latex.codecogs.com/svg.latex?L_{total}%20=%20\alpha%20L_{content}%20+%20\beta%20L_{style})
 ## How to Use?? <a name="paragraph3"></a>
