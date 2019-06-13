@@ -9,7 +9,7 @@
 ## Introduction <a name="introduction"></a>
 The objective of this module is to provide a method for transferring style of an artist or a particular painting to your images. So, what the user provides as input is his image and the particular image/images who's style he wants to be applied on his image.
 
-What the user receives as output?
+What the user receives as output? <br />
 The user receives his image painted in the style of his particular artist. So, the output image is user's image as it was painted by the artist.
 
 <!-- ## Some paragraph <a name="paragraph1"></a>
