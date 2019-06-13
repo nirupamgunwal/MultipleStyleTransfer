@@ -19,7 +19,7 @@ DataSet: Image Net <br />
 Optimizer: L-BFGS <br />
 Content Loss: <br />
 ![alt text](https://latex.codecogs.com/svg.latex?L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2)
-Style Loss:<br /> <br />
+Style Loss:<br />
 Gram's Matrix: <br />
 ![alt text](https://latex.codecogs.com/svg.latex?G_{ij}^l%20=%20\sum_{k}%20F_{ik}^l%20F_{jk}^l)
 Error Term:<br />
