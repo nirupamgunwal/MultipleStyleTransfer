@@ -1,9 +1,14 @@
+![Sample Result](https://github.com/nirupamgunwal/MultipleStyleTransfer/blob/master/Results/Sample_Result.png)
+
 # Table of contents
 1. [Introduction](#introduction)
 2. [Math behind the magic for Nerds](#paragraph2)
 3. [How to Use??](#paragraph3)
 3. [Documentation and Working](#paragraph4)
 4. [References](#paragraph5)
+
+
+
 
 ## Introduction <a name="introduction"></a>
 The objective of this module is to provide a method for transferring style of an artist or a particular painting to your images. So, what the user provides as input is his image and the particular image/images who's style he wants to be applied on his image.
