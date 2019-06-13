@@ -15,16 +15,16 @@ The user receives his image painted in the style of his particular artist. So, t
 Model Used: VGG-Net 16 <br />
 ![alt text](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png)
 DataSet: Image Net <br />
-![alt text](https://www.fanyeong.com/wp-content/uploads/2018/01/v2-718f95df083b2d715ee29b018d9eb5c2_r.jpg)
+![Image Net Dataset](https://www.researchgate.net/profile/Khalid_Elasnaoui/publication/325155660/figure/fig5/AS:670718329102351@1536923119570/Example-of-images-of-dataset-ImageNet.png)
 Optimizer: L-BFGS <br />
 Content Loss: <br />
 ![alt text](https://latex.codecogs.com/svg.latex?L_{content}%20=%20\frac{1}{2}%20\sum_{i,j}%20(F_{ij}^l%20-%20P_{ij}^l)^2)
-Style Loss:<br />
-Gram's Matrix: <br />
+Style Loss:
+Gram's Matrix: 
 ![alt text](https://latex.codecogs.com/svg.latex?G_{ij}^l%20=%20\sum_{k}%20F_{ik}^l%20F_{jk}^l)
-Error Term:<br />
+Error Term:
 ![alt text](https://latex.codecogs.com/svg.latex?E_{l}%20=%20\frac{1}{4%20N_{l}^2%20M_{l}^2}%20\sum_{i,j}%20(G_{ij}^l%20-%20A_{ij}^l)^2)
-Loss Term: <br />
+Loss Term: 
 ![alt text](https://latex.codecogs.com/svg.latex?L_{style}%20=%20\sum_{l%20=0}^l%20E_{l})
 
 Combined Loss:<br />
