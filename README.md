@@ -45,3 +45,5 @@ Run every block and your output images will be saved in the path provided by you
 ## References <a name="paragraph5"></a>
 1. [CS231n CNN's Module](http://cs231n.github.io/convolutional-networks/) 
 2. [Keras Documentation](https://keras.io/)
+
+## Code for Multiple Style Transfer will be added here soon.
