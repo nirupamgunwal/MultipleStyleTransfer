@@ -23,7 +23,8 @@ Model Used: VGG-Net 16
 ![alt text](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png)
 
 ## Proper Documentation of the Work <a name="paragraph3"></a>
-[Report Link][https://drive.google.com/file/d/0B1tMHssfdVfKZUx5Y00xN3V6UnJsd3FTUlp6RmhuVlU3dEZZ/view?usp=sharing]
+[Report Link](https://drive.google.com/file/d/0B1tMHssfdVfKZUx5Y00xN3V6UnJsd3FTUlp6RmhuVlU3dEZZ/view?usp=sharing)
 
 ## References <a name="paragraph4"></a>
 1. http://cs231n.github.io/convolutional-networks/ 
+2. [Keras Documentation](https://keras.io/)
